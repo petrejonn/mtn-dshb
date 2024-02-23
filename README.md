@@ -1,5 +1,7 @@
 # mtn-dshb
 
+[Project UI Design](https://www.figma.com/file/aWSTGibS48nO1NIiiczX7Z/MTN-Dasboard-by-Wicrypt?type=design&mode=design)
+
 ## Running Storybook
 
 1. Install the project dependencies:
