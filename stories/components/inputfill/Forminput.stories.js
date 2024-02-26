@@ -1,11 +1,14 @@
-import { createInput } from "./input";
+import { createForm } from "./Forminput";
 
 export default {
-  title: "Input",
+  title: "Forminput",
+  component: createForm,
   render: ({ label, ...args }) => {
-    return createInput({ label, ...args });
+    return createForm({ label, ...args });
   },
-  parameters: { layout: "fullscreen" },
+  parameters: {
+    layout: "fullscreen",
+  },
   argTypes: {
     backgroundColor: { control: "color" },
     label: { control: "text" },

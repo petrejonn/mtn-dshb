@@ -1,20 +1,22 @@
 import "./input.css";
 
-export const createInput = ({
+export function createInput({
   primary = false,
   size = "medium",
-  backgroundColor = "whitesmoke",
+  backgroundColor = "white",
   label,
   onChange,
-}) => {
-  const inp = document.createElement("input");
-  inp.type = "text";
-  inp.placeholder = "Input";
-  inp.addEventListener("change", onChange);
-
-  inp.className = `storybook-button--${size}`;
-
-  inp.style.backgroundColor = backgroundColor;
-
+}) {
+  const inp = `
+  <div class='story-input'>
+  <div>
+    <label></label>
+    <input 
+    type='text' 
+    class='storybook-input'
+    placeholder="eg.Johnrouter" 
+    >
+  </div>
+</div>`;
   return inp;
-};
+}

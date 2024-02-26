@@ -1,0 +1,78 @@
+.storybook-form {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10.8px;
+    cursor: pointer;
+    line-height: 12.42px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    padding: 9px;
+    padding-left: 15.05px;
+    width: 251.05px;
+    height: 35px;
+    margin-top: 17px;
+    left: 449.95px;
+    border: 1px solid #C4C4C4
+  }
+  .storybook-form:hover{
+
+    border: 1px solid rgb(0, 106, 255);
+}.storybook-form:active{
+
+    border: 1px solid rgb(0, 106, 255);
+}
+  .story-wrap:focus{
+    border: 2px solid rgb(0, 106, 255);
+  }
+  .story-wrap{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 0.96px solid #C4C4C4;
+    box-shadow: 0px 8px 10px 2px #0000001A;
+    height: 304px;
+    border-radius: 4.8px;
+    padding: 30px 48px;
+    
+}
+.story-wrap>div{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+  }
+  .story-wrap > div > label{
+    width: 104px;
+    height: 15px;
+    top: 189px;
+    left: 450px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1D1D1D;
+  }
+  .storybook-form--primary {
+    border-radius: 2px;
+    border: 1px #C4C4C4;
+  }
+  .storybook-form--secondary {
+    color: #333;
+    background-color: transparent;
+  }
+.storybook-form.storybook-form--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .storybook-form--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+    border-radius: 2px;
+    border: 1px #C4C4C4;
+  }
+  .storybook-form--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
