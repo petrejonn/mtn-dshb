@@ -8,40 +8,32 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
     padding: 9px;
     padding-left: 15.05px;
-    width: 251.05px;
     height: 35px;
+    width: inherit;
     margin-top: 17px;
     left: 449.95px;
     border: 1px solid #C4C4C4
   }
   .storybook-form:hover{
-
-    border: 1px solid rgb(0, 106, 255);
-}.storybook-form:active{
-
-    border: 1px solid rgb(0, 106, 255);
+    border: 2px solid #e5b910;
 }
-  .story-wrap:focus{
-    border: 2px solid rgb(0, 106, 255);
-  }
-  .story-wrap{
+.storybook-form:focus{
+    outline: 2px solid #e5b910;
+    border: none;
+} 
+.story-wrap{
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
+    align-self: center;
     border: 0.96px solid #C4C4C4;
     box-shadow: 0px 8px 10px 2px #0000001A;
     height: 304px;
     border-radius: 4.8px;
-    padding: 30px 48px;
+    padding: 30px 48px 30px 48px;
     
 }
-.story-wrap>div{
-    flex-direction: column;
-    display: flex;
-    justify-content: flex-start;
-    align-self: center;
-  }
-  .story-wrap > div > label{
+  .story-wrap > label{
     width: 104px;
     height: 15px;
     top: 189px;

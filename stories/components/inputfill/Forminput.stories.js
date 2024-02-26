@@ -15,7 +15,7 @@ export default {
     onChange: { action: "onChange" },
     primary: { control: "boolean" },
     size: {
-      control: { radio: "select" },
+      control: { type: "radio" },
       options: ["small", "medium", "large"],
     },
   },
@@ -23,6 +23,7 @@ export default {
 export const Primary = {
   args: {
     primary: true,
+    size: "medium",
     label: "Input",
   },
 };
