@@ -1,0 +1,30 @@
+.storybook-form> input{
+ border: none;
+ background-color: transparent;
+}
+.storybook-form> select{
+    border: none;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    align-self: center;
+    color: #e5b910;
+}
+ .option{
+    background-color: #e5b910;
+    color: white;
+}
+.storybook-form> input:focus{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.storybook-form> select:focus{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.story-wrap >div{
+    display: flex;
+    justify-content: space-between;
+}
