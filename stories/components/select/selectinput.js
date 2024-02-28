@@ -1,4 +1,4 @@
-import "./selectinput.css";
+import "../../../src/styles/output.css";
 
 export function createSelect({
   primary = false,

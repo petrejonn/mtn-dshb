@@ -1,4 +1,4 @@
-import "./forminput.css";
+import "../../../src/styles/output.css";
 import { createInput } from "../input/input";
 
 export const createForm = ({

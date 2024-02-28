@@ -1,4 +1,4 @@
-import "./input.css";
+import "../../../src/styles/output.css";
 
 export function createInput({
   primary = false,
